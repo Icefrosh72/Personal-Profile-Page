@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal profile webpage of Seidu Tesleem, a Front-end Developer with an accounting background."
+    />
+
     <title>My Profile</title>
   </head>
   <body>
@@ -15,9 +20,9 @@
           <h1>My Profile</h1>
           <!-- navlink text -->
           <ul>
-            <li>About Me</li>
-            <li>Hobbies</li>
-            <li>Contact</li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -26,15 +31,21 @@
       <!-- section -->
       <section>
         <!-- images -->
-        <img src="img/spacze.jpg" width="100" alt="" />
+        <img
+          src="img/spacze.jpg"
+          width="100"
+          alt="Profile picture of Seidu Tesleem"
+        />
 
         <!-- Bio -->
-        <textarea rows="10" cols="50" disabled style="font-size: 14px">
-                I'm Seidu Tesleem a Front-end developer with a background in accounting, skilled in HTML, CSS, JavaScript,
-                 ReactJS, Git and financial tools. 
-                 Experienced in building responsive web solutions and handling financial reporting, reconciliation, and analysis. Eager to contribute to teams by delivering great user experiences and ensuring financial accuracy.
-            </textarea
-        >
+        <p id="about" style="font-size: 14px">
+          I'm Seidu Tesleem a Front-end developer with a background in
+          accounting, skilled in HTML, CSS, JavaScript, ReactJS, Git and
+          financial tools. Experienced in building responsive web solutions and
+          handling financial reporting, reconciliation, and analysis. Eager to
+          contribute to teams by delivering great user experiences and ensuring
+          financial accuracy.
+        </p>
         <br />
 
         <!-- Hobbies -->
@@ -52,10 +63,11 @@
       <!-- footer -->
       <footer>
         <!-- contact -->
-        <a href="mailto:seidutesleem72@gmail.com">seidutesleem72@gmail.com</a>
-        <!-- github -->
-        <a href="https://github.com/Icefrosh72"
-          >https://github.com/Icefrosh72</a
+        <section id="contact">
+          <p>Contact Me:</p>
+          <a href="mailto:seidutesleem72@gmail.com">Email Me</a> |
+          <a href="https://github.com/Icefrosh72" target="_blank">GitHub</a>
+        </section>
         >
       </footer>
     </main>
